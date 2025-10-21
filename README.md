@@ -1,6 +1,5 @@
 # Health-Data-Cleaning-Project
-Data Preparation &amp; Exploration with Power Query (Excel &amp; Power BI)
-The data comes from the OECD (Organisation for Economic Co-operation and Development) and covers several key dimensions of public health and well-being across member countries.
+The data comes from the OECD (Organisation for Economic Cooperation and Development) and covers several key dimensions of public health and well-being across member countries.
 
 Through this project, I learned how to:
 
@@ -14,17 +13,22 @@ Build complete data grids and heatmaps to visualize data availability.
 
 Prepare clean, analysis-ready tables for Power BI.
 
-📊 Datasets Used
+📊 Datasets Used:
 
 The project is based on five OECD datasets, all related to population health and healthcare systems:
 
-#	Dataset	Focus	Key Measures
-1	Perceived Health Status	Self-reported health	% of population by sex, age, and health category
-2	Perceived Health Status by Socio-Economic Status	Self-reported health (by income)	% of population reporting good/very good health
-3	Health Expenditure and Financing	System financing	% of GDP, PPP per person by financing scheme
-4	Patient Experiences (Financial Barriers)	Access to healthcare	% skipping consultations, tests, or medicines due to cost
-5	Risk Factors for Health	Lifestyle habits	% of daily smokers
-🌍 Reference Countries
+1	Perceived Health Status (Self-reported health):	% of population by sex, age, and health category
+
+2	Perceived Health Status by Socio-Economic Status (Self-reported health (by income)):	% of population reporting good/very good health
+
+3	Health Expenditure and Financing	(System financing):	% of GDP, PPP per person by financing scheme
+
+4	Patient Experiences (Access to healthcare and financial barriers):	% of skipping consultations, tests, or medicines due to cost
+
+5	Risk Factors for Health	(Lifestyle habits):	% of daily smokers
+
+
+🌍 Reference Countries:
 
 I selected 10 OECD countries to ensure diverse health system models and socio-economic profiles:
 
@@ -33,7 +37,7 @@ I selected 10 OECD countries to ensure diverse health system models and socio-ec
 
 This subset allowed me to explore data relationships and make meaningful cross-country comparisons.
 
-⚙️ Power Query Workflow (ETL Light)
+⚙️ Power Query Workflow (ETL)
 1. Extract
 
 Imported data from OECD CSV/Excel files.
